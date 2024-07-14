@@ -1,10 +1,18 @@
-# React + Vite
+# Translate App
+This project is a text translation application that helps you translate texts between different languages.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- **Translation**: Translate text from one language to another.
+- **Language** Selection: Choose input and output languages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# translate-app
-# translate-app
+## Technologies Used
+
+- Redux Toolkit
+- axios
+- react-redux
+- react-select
+
+## Screen Gif: 
+![translate](https://github.com/user-attachments/assets/21b22b94-7ceb-44d2-b09e-e863f905bfd1)
+
