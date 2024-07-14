@@ -3,15 +3,16 @@ import { useDispatch, useSelector } from "react-redux";
 import Select from "react-select";
 import { getLanguages, translateText } from "./redux/actions";
 import { setAnswer } from "./redux/slices/translateSlice";
+
 const App = () => {
   const dispatch = useDispatch();
-
+  /* Reducer */
   const { isLoading, error, languages } = useSelector(
     (store) => store.languageReducer
   );
   const translateState = useSelector((store) => store.translateReducer);
 
-  /* Stateler */
+  /* State */
   const [sourceLang, setSourceLang] = useState({
     label: "Turkish",
     value: "tr",
